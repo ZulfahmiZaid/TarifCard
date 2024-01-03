@@ -10,7 +10,9 @@ import {
     VCardTitle,
     VCardSubtitle,
     VCardText,
-    VCardActions
+    VCardActions,
+    VBtn,
+    VDialog
 } from "vuetify/components";
 
 const app = createApp(App)
@@ -23,7 +25,9 @@ const vuetify = new createVuetify({
         VCardTitle,
         VCardSubtitle,
         VCardText,
-        VCardActions
+        VCardActions,
+        VBtn,
+        VDialog
     }
 })
 
