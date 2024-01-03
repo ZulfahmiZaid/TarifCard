@@ -9,7 +9,7 @@
 
         <v-card-title class="title pb-4">
           Free Access to <br>
-          Acme Music <sup class="r-symbol"><v-icon icon="mdi-alpha-r-circle-outline"/></sup>
+          &nbsp;&nbsp; Acme Music <sup class="r-symbol"><v-icon icon="mdi-alpha-r-circle-outline"/></sup>
         </v-card-title>
 
         <v-card-subtitle class="subtitle pb-2">
@@ -40,7 +40,7 @@ export default {
 
 <style scoped>
   .tarifcard{
-    height: 400px;
+    height: 390px;
     border-radius: 10px;
     position: relative;
     background: linear-gradient(
@@ -48,6 +48,8 @@ export default {
         rgba(49, 208, 179, 1) 40%,
         rgba(87, 255, 177, 0.6),
         rgba(189, 243, 207, 0.7));
+    opacity: 0.9;
+    filter: blur(0.4px);
     z-index: 1;
   }
   .content{
@@ -66,8 +68,12 @@ export default {
   }
   .r-symbol{
     font-size: .5rem;
+    position: relative;
+    top: -15px;
+    left: -5px;
   }
   .title{
+    color: rgba(5, 22, 77, 0.9);
     font-weight: bold;
     text-align: center;
   }
@@ -77,6 +83,7 @@ export default {
     grid-template-columns: 30px auto;
   }
   .subtitle > p{
+    color: black !important;
     text-align: left;
   }
   .actions{
@@ -88,6 +95,7 @@ export default {
     bottom: 0;
   }
   .action{
+    color: rgba(5, 22, 77, 0.9);
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
