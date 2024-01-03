@@ -4,14 +4,14 @@
 
 <template>
   <div id="app">
-    <h2>Task B: Tarif Card</h2>
+    <h2 class="text-center py-5">Task B: Tarif Card</h2>
     <tarif-card></tarif-card>
   </div>
 </template>
 
 <style scoped>
-  #app{
-    width: 500px;
-    margin: 0 auto 0 auto ;
-  }
+ #app{
+   display: grid;
+   place-items: center;
+ }
 </style>

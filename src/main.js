@@ -5,7 +5,12 @@ import 'vuetify/dist/vuetify.min.css';
 import '@mdi/font/css/materialdesignicons.css';
 
 import {
-    VCard
+    VCard,
+    VIcon,
+    VCardTitle,
+    VCardSubtitle,
+    VCardText,
+    VCardActions
 } from "vuetify/components";
 
 const app = createApp(App)
@@ -13,7 +18,12 @@ const app = createApp(App)
 // create Vuetify
 const vuetify = new createVuetify({
     components:{
-        VCard
+        VCard,
+        VIcon,
+        VCardTitle,
+        VCardSubtitle,
+        VCardText,
+        VCardActions
     }
 })
 
