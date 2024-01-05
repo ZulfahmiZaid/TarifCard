@@ -1,35 +1,36 @@
 <template>
 
-    <v-card width="300" class="tarifcard" elevation="10">
+      <v-card width="300" class="tarifcard" elevation="10">
 
-      <div class="content">
-        <div class="playbutton py-3">
-          <v-icon icon="mdi-play-circle"></v-icon>
+        <div class="content">
+          <div class="playbutton py-3">
+            <v-icon icon="mdi-play-circle"></v-icon>
+          </div>
+
+          <v-card-title class="title pb-4">
+            Free Access to <br>
+            &nbsp;&nbsp; Acme Music <sup class="r-symbol"><v-icon icon="mdi-alpha-r-circle-outline"/></sup>
+          </v-card-title>
+
+          <v-card-subtitle class="subtitle pb-2">
+            <v-icon icon="mdi-check" class="text-warning"></v-icon>
+            <p>Stream 60 million songs on <br>
+              your device</p>
+          </v-card-subtitle>
+
+          <v-card-subtitle class="subtitle">
+            <v-icon icon="mdi-close" class="text-warning"></v-icon>
+            <p>No internet access</p>
+          </v-card-subtitle>
+
         </div>
 
-        <v-card-title class="title pb-4">
-          Free Access to <br>
-          &nbsp;&nbsp; Acme Music <sup class="r-symbol"><v-icon icon="mdi-alpha-r-circle-outline"/></sup>
-        </v-card-title>
+        <v-card-actions class="actions">
+          <button class="action">Connect now</button>
+        </v-card-actions>
 
-        <v-card-subtitle class="subtitle pb-2">
-          <v-icon icon="mdi-check" class="text-warning"></v-icon>
-          <p>Stream 60 million songs on <br>
-            your device</p>
-        </v-card-subtitle>
+      </v-card>
 
-        <v-card-subtitle class="subtitle">
-          <v-icon icon="mdi-close" class="text-warning"></v-icon>
-          <p>No internet access</p>
-        </v-card-subtitle>
-
-      </div>
-
-      <v-card-actions class="actions">
-        <button class="action">Connect now</button>
-      </v-card-actions>
-
-    </v-card>
 </template>
 
 <script>
